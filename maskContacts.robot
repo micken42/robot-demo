@@ -4,7 +4,7 @@ Library  Selenium2Library
 *** Keywords ***
 Gehe zu Webseite Kontakte
     [Documentation]  Webseite Find Contacts wird aufgerufen
-    Go To  http://localhost:8082/influx/contacts
+    Go To  ${host}/influx/contacts
 
 Pruefe, dass die Webseite Kontakte angezeigt wird
     [Documentation]  Für aktuelle Webseite wird geprüft, ob es sich um die Webseite Kontakte handelt

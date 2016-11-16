@@ -19,7 +19,7 @@ Pruefe, dass die Benutzerprofilseite angezeigt wird
 Benutzer bei influx einloggen
     [Documentation]  Einloggen bei in|FLUX als Benuzter mit Passwort
     [Arguments]  ${Benutzername}  ${Passwort}
-    Go To  http://localhost:8082/influx/login
+    Go To  ${host}/influx/login
     Wait Until Page Contains Element  xpath=//form[@action="login-check"]  timeout=60
     Input Text  xpath=//form[@action="login-check"]//input[@name="name"]  ${Benutzername}
     Input Text  xpath=//form[@action="login-check"]//input[@name="pass"]  ${Passwort}
