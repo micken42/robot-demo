@@ -30,14 +30,14 @@ Benutzer bei influx einloggen
 Oeffne Browser
     Open Browser  ${host}  ${browser}
 
-#Als Benutzer bei in|FLUX einloggen
- #   Benutzer bei influx einloggen  ${user}  ${pass}
+Als Benutzer bei in|FLUX einloggen
+    Benutzer bei influx einloggen  ${user}  ${pass}
 
-#Suche den Kontakt Thomas Ambrosius
- #   Suche nach Kontakt  Ambrosius
+Suche den Kontakt Thomas Ambrosius
+    Suche nach Kontakt  Ambrosius
 
-#Lege den Kontakt Michael Baumert neu an
- #   Lege neuen Kontakt an  &{Michael}
+Lege den Kontakt Michael Baumert neu an
+    Lege neuen Kontakt an  &{Michael}
 
 Schliesse Browser
     Close Browser
