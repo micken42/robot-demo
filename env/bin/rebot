@@ -1,0 +1,6 @@
+#!/home/baumert/Repos/robot-demo/env/bin/python
+
+import sys
+from robot import rebot_cli
+
+rebot_cli(sys.argv[1:])

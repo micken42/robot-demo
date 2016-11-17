@@ -2,8 +2,8 @@
 Resource  ucInflux.robot
 
 *** Variables ***
-${host}     http://localhost:8082
-${browser}  chrome
+${host}     http://10.0.2.2:8082
+${browser}  phantomjs 
 ${user}     admin
 ${pass}     admin
 
